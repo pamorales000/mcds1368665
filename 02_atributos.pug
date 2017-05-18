@@ -1,0 +1,35 @@
+doctype
+html(lang='es')
+	head
+		meta(charset='utf-8')
+		title Documento HTML 5
+body
+	h1 Atributos De Etiquetas
+	hr
+//- Atributos en linea
+a(class='link', href='http://www.google.com', target='_blank') Ir a Google
+|&nbsp; | &nbsp;
+//- Atributos en bloque
+a(
+	class ='link active'
+ 	href='http://www.yahoo.com'
+ 	target ='_blank_'
+ 
+) Ir a Yahoo
+br
+hr
+br
+//-Atributos Booleanos
+label 
+	input(type='radio' name='color' checked=false) 
+	| Amarillo
+label
+	input(type='radio' name='color' checked=true)
+		| Azul
+label
+	input(type='radio' name='color' checked=false)
+			| Rojo
+
+
+
+								
