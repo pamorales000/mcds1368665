@@ -1,0 +1,17 @@
+doctype
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		title Reutilizar Codigo
+body
+h1  Reutilizar Codigo
+hr
+mixin pet(name)
+	li.pet= name
+ul
++pet('cat')
++pet('dog')
++pet('pig')
+
+
+							

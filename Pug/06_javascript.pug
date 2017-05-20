@@ -1,0 +1,11 @@
+doctype
+html(lang='es')
+	head
+		meta(charset='utf-8')
+		
+body
+<section id='output'></section>
+script.
+	var op = document.getElementById('output');
+	var name = prompt('What’s your name?'');
+	op.innerHTML = '<h1> Welcome: '+name+'</h1>;

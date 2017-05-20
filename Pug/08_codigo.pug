@@ -1,0 +1,17 @@
+doctype
+html(lang ="es")
+	head
+		meta(charset = "utf-8")
+		title Codigo
+	body
+		h1 Codigo
+		hr
+		//- Sin Bufer
+		- for(var i = 1; i<=20; i++)
+			li Elemento #{i}
+		//- Con Bufer
+		- var contenido= '<strong> lorem ipsum</strong> dolor <em> sitamet</em>'
+		p=contenido
+		br
+		p!=contenido
+			
