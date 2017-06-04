@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario (PUG- BOOTSTRAP)</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="container">
+      <section class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <fieldset>
+            <legend>
+              <h3 class="text-muted"> <i class="glyphicon glyphicon-user"></i>&nbsp; Formulario Dos</h3>
+            </legend>
+            <form method="post">
+              <div class="form-group">
+              <label>&nbsp; Email:</label>
+              <br>
+                <input class="form-control" name="email" type="email" placeholder="Correo Electronico" required>
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <fieldset>
+            <legend>
+              <h3 class="text-muted"><i class="glyphicon glyphicon-list"></i>&nbsp; Formulario de Registro</h3>
+            </legend>
+
+              <div class="form-group">
+              <LABEL> Experiencia Académica:</LABEL>
+              <br>
+                <select class="form-control" name="gender" required="true">
+                  <option>Experiencia Academica...</option>
+                  <option value="T">Técnico</option>
+                  <option value="TE">Técnologo</option>
+                  <option value="E">Especialización</option>
+                  <option value="P">Pregrado</option>
+                  <option value="PO">Postgrado</option>
+                  <option value="D">Doctorado</option>
+                </select>
+              </div>
+              <div class="form-group">
+              <label> Fecha De Certificación:</label>
+                <input class="form-control" type="date" name="date" placeholder="Fecha De Certificación" required>
+              </div>
+              <div class="form-group" placeholder="Actualmente Estudia:" required>
+                <LABEL>Actualmente Estudia:</LABEL>
+                <br>
+                <label for="s1">
+                  <input type="checkbox" name="sport" id="s1" value="Si">&nbsp Si
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="s2">
+                  <input type="checkbox" name="sport" id="s2" value="No">&nbsp No
+                </label>
+              </div>
+              <div class="form-group">
+              <label>PQR:</label>
+              <br>
+                <select class="form-control" name="gender" required="true">
+                  <option>PQRS...</option>
+                  <option value="P">Petición</option>
+                  <option value="Q">Queja</option>
+                  <option value="R">Reclamo</option>
+                  <option value="S">Sugerencia</option>
+                  
+                </select>
+              </div>
+              
+              <div class="form-group">
+              <label> Descripción:</label>
+              <br>
+                <textarea class="form-control" name="descripcion" placeholder="descripcion" required rows="6"></textarea>
+              </div>
+              <div class="form-group" placeholder="Desea Recibir Correos o Noticias de nuestra empresa:" required>
+              <label>Desea Recibir Correos o Noticias De Nuestra Empresa:</label>
+              <br>
+                <label for="s1">
+                  <input type="checkbox" name="sport" id="s1" value="Si">&nbsp Si
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="s2">
+                  <input type="checkbox" name="sport" id="s2" value="No">&nbsp No
+                </label>
+              </div>
+              
+              <div class="form-group">
+                <input class="form-control btn btn-danger" type="reset" value="Cancelar">
+              </div>
+            </form>
+          </fieldset>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
