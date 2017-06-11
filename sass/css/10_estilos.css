@@ -1,0 +1,15 @@
+body {
+  font: 16px tahoma;
+  color: #C0BA17; }
+
+section {
+  border: 1px solid #4109E3;
+  padding: 40px;
+  margin: 10px;
+  width: 200px; }
+  section.box1 {
+    border-radius: 10px; }
+  section.box2 {
+    border-radius: 100%; }
+  section.box3 {
+    border-radius: 60px; }

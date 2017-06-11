@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,IAAI,EAAE,WAAW;EACjB,KAAK,EAAC,OAAO;;AAKd,OAAO;EACN,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;EACZ,YAAM;IAPN,aAAa,EAQQ,IAAI;EAEzB,YAAM;IAVN,aAAa,EAWQ,IAAI;EAEzB,YAAM;IAbN,aAAa,EAcQ,IAAI",
+"sources": ["../../sass/scss/10_estilos.scss"],
+"names": [],
+"file": "10_estilos.css"
+}

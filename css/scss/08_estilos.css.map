@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,IAAI,EAAE,UAAU;EAChB,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;;AAKZ,OAAO;EACN,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAC,cAAc;EACrB,OAAO,EAAC,IAAI;EACZ,KAAK,EAAC,KAAK;EAEX,UAAE;IAEA,KAAK,EAAE,OAAO;IACd,mBAAU;MACT,OAAO,EAAC,IAAI",
+"sources": ["../../sass/scss/08_estilos.scss"],
+"names": [],
+"file": "08_estilos.css"
+}

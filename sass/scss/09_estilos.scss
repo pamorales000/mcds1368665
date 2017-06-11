@@ -1,0 +1,23 @@
+body{
+	font: 16px Arial;
+
+}
+menu{
+	margin: 20px auto;
+	width: 400px;
+	ul{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		li{
+			margin-bottom: 2px;
+			padding: 10px;
+			border: 1px solid #ccc;
+	}
+		@for $i from 1 through 10{
+			li:nth-child(#{$i}){
+				background-color:#1015E9;
+			}
+		}
+	}
+}

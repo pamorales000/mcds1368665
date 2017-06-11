@@ -1,0 +1,19 @@
+body {
+  font: 16px Arial; }
+
+article {
+  margin: 20px auto;
+  padding: 20px;
+  width: 400px; }
+
+.error, .seriousError {
+  border: 1px solid #f00;
+  background-color: #fdd; }
+
+h4 {
+  color: #800; }
+
+.seriousError {
+  border: 4px solid #f00; }
+
+/*# sourceMappingURL=07_estilos.css.map */

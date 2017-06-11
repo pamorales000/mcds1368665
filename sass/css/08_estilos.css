@@ -1,0 +1,14 @@
+body {
+  font: 16px Arial;
+  background-color: #ddd;
+  color: #333; }
+
+article {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 400px; }
+  article h2 {
+    color: #F13636; }
+    article h2.no-votar {
+      display: none; }

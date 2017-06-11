@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,4DAAoD;ACE5D,KACA;EACC,UAAU,EAAE,8CAA0D;EACtE,MAAM,EAAE,KAAK;;AAGd,MAAM;EACL,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,gFACwB;EACjC,UAAU,EAAC,8CAA0D;EACxE,KAAK,ECPQ,OAAO;EDQpB,SAAS,EAAE,GAAG;EACd,WAAW,EDbJ,OAAO;ECcX,OAAO,EAAE,KAAK;EACjB,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,MAAM;EAEb,YAAO;IACN,MAAM,EAAE,OAAO;IACf,UAAU,EAAC,8CAA0D",
+"sources": ["../../sass/scss/fonts.scss","../../sass/scss/06_estilos.scss","../../sass/scss/colors.scss"],
+"names": [],
+"file": "06_estilos.css"
+}
